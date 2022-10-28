@@ -6,12 +6,14 @@ Console.WriteLine(numA);
 Console.WriteLine(numB);
 Console.WriteLine(numC);
 
-if (numA > numB) {
+if (numA > numB)
+{
     if (numA > numC) Console.WriteLine(numA);
-    else Console.WriteLine(numC);  
+    else Console.WriteLine(numC);
 }
 
-else {
+else
+{
     if (numB > numC) Console.WriteLine(numB);
     else Console.WriteLine(numC);
 }
